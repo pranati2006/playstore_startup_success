@@ -1,0 +1,10 @@
+{
+  "description": "An AI-powered fitness coach that creates personalized workouts, tracks nutrition, adjusts routines using progress, and helps users build sustainable exercise habits at home or in the gym.",
+  "genre": "Health & Fitness",
+  "content_rating": "Everyone",
+  "free": true,
+  "price": 0.0,
+  "offers_iap": true,
+  "contains_ads": false,
+  "summary": "AI personal workout and nutrition coach"
+}

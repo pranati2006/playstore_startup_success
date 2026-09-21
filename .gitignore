@@ -1,0 +1,15 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+data/raw/*.csv
+data/processed/*.csv
+data/processed/*.npy
+artifacts/*.joblib
+artifacts/*.json
+artifacts/*.npy
+artifacts/*.csv
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!artifacts/.gitkeep
