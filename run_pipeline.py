@@ -79,3 +79,8 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
+
+#python run_pipeline.py --country in --lang en --top-k 30
+#for no scrape
+#python run_pipeline.py --skip-scrape --top-k 30
