@@ -84,3 +84,4 @@ if __name__ == "__main__":
 #python run_pipeline.py --country in --lang en --top-k 30
 #for no scrape
 #python run_pipeline.py --skip-scrape --top-k 30
+#after this run the app or call predictor  
