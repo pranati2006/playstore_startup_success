@@ -14,6 +14,7 @@ def main() -> None:
     parser = argparse.ArgumentParser(
         description="Run the complete Play Store startup-success pipeline."
     )
+
     parser.add_argument(
         "--skip-scrape",
         action="store_true",
@@ -41,8 +42,14 @@ def main() -> None:
         default=30,
         help="Semantic neighbors used to create market features.",
     )
-    args = parser.parse_args()
+    parser.add_argument(
+        "--cv-folds",
+        type=int,
+        default=5,
+        help="Stratified cross-validation folds used during model tuning.",
+    )
 
+    args = parser.parse_args()
     python = sys.executable
 
     if not args.skip_scrape:
@@ -62,6 +69,7 @@ def main() -> None:
 
     run([python, "-m", "src.prepare_data"])
     run([python, "-m", "src.embeddings"])
+
     run(
         [
             python,
@@ -71,9 +79,21 @@ def main() -> None:
             str(args.top_k),
         ]
     )
-    run([python, "-m", "src.train", "--top-k", str(args.top_k)])
+
+    run(
+        [
+            python,
+            "-m",
+            "src.train",
+            "--top-k",
+            str(args.top_k),
+            "--cv-folds",
+            str(args.cv_folds),
+        ]
+    )
 
     print("\nPipeline complete.")
+    print("Evaluation report: artifacts/evaluation/model_evaluation_report.html")
     print("Launch the UI with: streamlit run app.py")
 
 
@@ -81,7 +101,8 @@ if __name__ == "__main__":
     main()
 
 
-#python run_pipeline.py --country in --lang en --top-k 30
-#for no scrape
-#python run_pipeline.py --skip-scrape --top-k 30
-#after this run the app or call predictor  
+# Full run:
+# python run_pipeline.py --country in --lang en --top-k 30 --cv-folds 5
+
+# Reuse existing raw scraped data:
+# python run_pipeline.py --skip-scrape --top-k 30 --cv-folds 5
