@@ -1,0 +1,25 @@
+{
+  "config_id": 3,
+  "fold": 4,
+  "metrics": {
+    "accuracy": 0.7847938144329897,
+    "balanced_accuracy": 0.6194158075601375,
+    "confusion_matrix": [
+      [
+        553,
+        29
+      ],
+      [
+        138,
+        56
+      ]
+    ],
+    "f1": 0.4014336917562724,
+    "pr_auc": 0.562664527595556,
+    "precision": 0.6588235294117647,
+    "recall": 0.28865979381443296,
+    "roc_auc": 0.7709019732879867,
+    "specificity": 0.9501718213058419
+  },
+  "model": "gradient_boosting"
+}

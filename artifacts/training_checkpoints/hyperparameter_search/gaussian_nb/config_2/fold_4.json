@@ -1,0 +1,25 @@
+{
+  "config_id": 2,
+  "fold": 4,
+  "metrics": {
+    "accuracy": 0.28865979381443296,
+    "balanced_accuracy": 0.5257731958762887,
+    "confusion_matrix": [
+      [
+        30,
+        552
+      ],
+      [
+        0,
+        194
+      ]
+    ],
+    "f1": 0.4127659574468085,
+    "pr_auc": 0.39945802966346733,
+    "precision": 0.26005361930294907,
+    "recall": 1.0,
+    "roc_auc": 0.7263701420625641,
+    "specificity": 0.05154639175257732
+  },
+  "model": "gaussian_nb"
+}

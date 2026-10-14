@@ -1,0 +1,25 @@
+{
+  "config_id": 1,
+  "fold": 2,
+  "metrics": {
+    "accuracy": 0.6997422680412371,
+    "balanced_accuracy": 0.6840578035709525,
+    "confusion_matrix": [
+      [
+        417,
+        166
+      ],
+      [
+        67,
+        126
+      ]
+    ],
+    "f1": 0.5195876288659794,
+    "pr_auc": 0.5763197408257107,
+    "precision": 0.4315068493150685,
+    "recall": 0.6528497409326425,
+    "roc_auc": 0.7827833521449711,
+    "specificity": 0.7152658662092625
+  },
+  "model": "logistic_regression"
+}

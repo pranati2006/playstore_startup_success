@@ -1,0 +1,8 @@
+{
+  "config_id": 2,
+  "cv_folds": 5,
+  "feature_sha256": "ed0a9cfce62e9b49a493cac7acce0ab5ab85a6c8c3cf5542a604f02c8597327d",
+  "model": "svc",
+  "parameters": "{\"cv\": 3, \"ensemble\": false, \"estimator\": \"SVC(class_weight='balanced', random_state=42)\", \"method\": \"sigmoid\", \"n_jobs\": null}",
+  "top_k": 30
+}

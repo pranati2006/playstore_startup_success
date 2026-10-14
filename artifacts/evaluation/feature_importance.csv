@@ -1,0 +1,251 @@
+model,config_id,feature,importance,absolute_importance,method
+logistic_regression,1,genre_Social,1.3282208523784813,1.3282208523784813,native importance / coefficient magnitude
+logistic_regression,1,genre_Business,1.269280511202687,1.269280511202687,native importance / coefficient magnitude
+logistic_regression,1,genre_Shopping,1.167168909792693,1.167168909792693,native importance / coefficient magnitude
+logistic_regression,1,genre_Racing,1.078582172011112,1.078582172011112,native importance / coefficient magnitude
+logistic_regression,1,genre_Tools,1.0748637979842244,1.0748637979842244,native importance / coefficient magnitude
+logistic_regression,1,genre_Medical,1.0116899168993119,1.0116899168993119,native importance / coefficient magnitude
+logistic_regression,1,genre_Education,0.9832288112146215,0.9832288112146215,native importance / coefficient magnitude
+logistic_regression,1,genre_Puzzle,0.9533461418596073,0.9533461418596073,native importance / coefficient magnitude
+logistic_regression,1,genre_Video Players & Editors,0.936629107351594,0.936629107351594,native importance / coefficient magnitude
+logistic_regression,1,genre_Arcade,0.8720892419684306,0.8720892419684306,native importance / coefficient magnitude
+logistic_regression,1,genre_Communication,0.8696720421944032,0.8696720421944032,native importance / coefficient magnitude
+logistic_regression,1,genre_Strategy,0.8493614985819387,0.8493614985819387,native importance / coefficient magnitude
+logistic_regression,1,genre_House & Home,0.7925168986282903,0.7925168986282903,native importance / coefficient magnitude
+logistic_regression,1,genre_News & Magazines,0.7815789466567801,0.7815789466567801,native importance / coefficient magnitude
+logistic_regression,1,free,0.7685591913457767,0.7685591913457767,native importance / coefficient magnitude
+logistic_regression,1,genre_Beauty,0.6678114750219846,0.6678114750219846,native importance / coefficient magnitude
+logistic_regression,1,contentRating_Everyone,0.6464153349639722,0.6464153349639722,native importance / coefficient magnitude
+logistic_regression,1,description_words,0.6426462651308421,0.6426462651308421,native importance / coefficient magnitude
+logistic_regression,1,emb_127,0.6340830160659473,0.6340830160659473,native importance / coefficient magnitude
+logistic_regression,1,genre_Weather,0.5959819988976109,0.5959819988976109,native importance / coefficient magnitude
+logistic_regression,1,market_mean_rating,0.5863532595066114,0.5863532595066114,native importance / coefficient magnitude
+logistic_regression,1,emb_223,0.5540440174002397,0.5540440174002397,native importance / coefficient magnitude
+logistic_regression,1,genre_Sports,0.5488722463316735,0.5488722463316735,native importance / coefficient magnitude
+logistic_regression,1,genre_Casual,0.515511635133404,0.515511635133404,native importance / coefficient magnitude
+logistic_regression,1,emb_327,0.4799691009016946,0.4799691009016946,native importance / coefficient magnitude
+decision_tree,1,market_success_ratio,0.3719085843951785,0.3719085843951785,native importance / coefficient magnitude
+decision_tree,1,description_words,0.07814111404095306,0.07814111404095306,native importance / coefficient magnitude
+decision_tree,1,market_mean_rating,0.039450862552708986,0.039450862552708986,native importance / coefficient magnitude
+decision_tree,1,emb_026,0.02268595674993989,0.02268595674993989,native importance / coefficient magnitude
+decision_tree,1,emb_327,0.02226549796630675,0.02226549796630675,native importance / coefficient magnitude
+decision_tree,1,emb_086,0.02091499886714621,0.02091499886714621,native importance / coefficient magnitude
+decision_tree,1,emb_079,0.020863135386989237,0.020863135386989237,native importance / coefficient magnitude
+decision_tree,1,emb_383,0.01890291293619117,0.01890291293619117,native importance / coefficient magnitude
+decision_tree,1,description_chars,0.018318574438942015,0.018318574438942015,native importance / coefficient magnitude
+decision_tree,1,emb_048,0.01763315434649932,0.01763315434649932,native importance / coefficient magnitude
+decision_tree,1,emb_312,0.01755117655226137,0.01755117655226137,native importance / coefficient magnitude
+decision_tree,1,emb_288,0.015921112190596456,0.015921112190596456,native importance / coefficient magnitude
+decision_tree,1,emb_208,0.015403674414089257,0.015403674414089257,native importance / coefficient magnitude
+decision_tree,1,emb_287,0.015251041371609281,0.015251041371609281,native importance / coefficient magnitude
+decision_tree,1,emb_102,0.014775987830727772,0.014775987830727772,native importance / coefficient magnitude
+decision_tree,1,emb_134,0.014544253277945372,0.014544253277945372,native importance / coefficient magnitude
+decision_tree,1,emb_374,0.014190272354993405,0.014190272354993405,native importance / coefficient magnitude
+decision_tree,1,emb_227,0.014090344374542044,0.014090344374542044,native importance / coefficient magnitude
+decision_tree,1,emb_194,0.013912896130568604,0.013912896130568604,native importance / coefficient magnitude
+decision_tree,1,price,0.01389853608325413,0.01389853608325413,native importance / coefficient magnitude
+decision_tree,1,emb_040,0.01234967668020737,0.01234967668020737,native importance / coefficient magnitude
+decision_tree,1,emb_125,0.012027206033470525,0.012027206033470525,native importance / coefficient magnitude
+decision_tree,1,emb_120,0.011940037439311853,0.011940037439311853,native importance / coefficient magnitude
+decision_tree,1,emb_262,0.011908674931633853,0.011908674931633853,native importance / coefficient magnitude
+decision_tree,1,emb_294,0.011631993600423746,0.011631993600423746,native importance / coefficient magnitude
+random_forest,3,market_success_ratio,0.031958929609755674,0.031958929609755674,native importance / coefficient magnitude
+random_forest,3,market_median_installs,0.028723182164302013,0.028723182164302013,native importance / coefficient magnitude
+random_forest,3,market_mean_rating,0.02524289729073172,0.02524289729073172,native importance / coefficient magnitude
+random_forest,3,description_words,0.019700126878401714,0.019700126878401714,native importance / coefficient magnitude
+random_forest,3,description_chars,0.018876730273300724,0.018876730273300724,native importance / coefficient magnitude
+random_forest,3,market_median_reviews,0.01847106516174327,0.01847106516174327,native importance / coefficient magnitude
+random_forest,3,emb_145,0.0051808798889736475,0.0051808798889736475,native importance / coefficient magnitude
+random_forest,3,emb_136,0.0047193778695937515,0.0047193778695937515,native importance / coefficient magnitude
+random_forest,3,emb_364,0.004605089488621696,0.004605089488621696,native importance / coefficient magnitude
+random_forest,3,emb_032,0.004555213730102195,0.004555213730102195,native importance / coefficient magnitude
+random_forest,3,emb_155,0.004406550933778395,0.004406550933778395,native importance / coefficient magnitude
+random_forest,3,emb_221,0.004274001362311263,0.004274001362311263,native importance / coefficient magnitude
+random_forest,3,emb_180,0.004184447622895948,0.004184447622895948,native importance / coefficient magnitude
+random_forest,3,emb_086,0.004141229676192423,0.004141229676192423,native importance / coefficient magnitude
+random_forest,3,emb_158,0.0041288914093102,0.0041288914093102,native importance / coefficient magnitude
+random_forest,3,emb_379,0.004123129160168076,0.004123129160168076,native importance / coefficient magnitude
+random_forest,3,emb_087,0.0040266836682148624,0.0040266836682148624,native importance / coefficient magnitude
+random_forest,3,emb_026,0.0039825093785700975,0.0039825093785700975,native importance / coefficient magnitude
+random_forest,3,emb_318,0.003948753509668911,0.003948753509668911,native importance / coefficient magnitude
+random_forest,3,emb_220,0.003835703870743123,0.003835703870743123,native importance / coefficient magnitude
+random_forest,3,emb_383,0.0038091514602031323,0.0038091514602031323,native importance / coefficient magnitude
+random_forest,3,emb_021,0.003755967374369531,0.003755967374369531,native importance / coefficient magnitude
+random_forest,3,emb_079,0.003676713593889493,0.003676713593889493,native importance / coefficient magnitude
+random_forest,3,summary_chars,0.0035992260677026283,0.0035992260677026283,native importance / coefficient magnitude
+random_forest,3,emb_102,0.0035111123496514643,0.0035111123496514643,native importance / coefficient magnitude
+extra_trees,2,market_success_ratio,0.0264892325423651,0.0264892325423651,native importance / coefficient magnitude
+extra_trees,2,market_mean_rating,0.018948615266990917,0.018948615266990917,native importance / coefficient magnitude
+extra_trees,2,description_chars,0.018483676439535496,0.018483676439535496,native importance / coefficient magnitude
+extra_trees,2,description_words,0.015987711348399512,0.015987711348399512,native importance / coefficient magnitude
+extra_trees,2,containsAds,0.010657625708471627,0.010657625708471627,native importance / coefficient magnitude
+extra_trees,2,offersIAP,0.007033880323821514,0.007033880323821514,native importance / coefficient magnitude
+extra_trees,2,contentRating_Everyone,0.005656264007598856,0.005656264007598856,native importance / coefficient magnitude
+extra_trees,2,emb_155,0.0038810747072554165,0.0038810747072554165,native importance / coefficient magnitude
+extra_trees,2,market_median_reviews,0.003789081057955836,0.003789081057955836,native importance / coefficient magnitude
+extra_trees,2,emb_136,0.003750323917701669,0.003750323917701669,native importance / coefficient magnitude
+extra_trees,2,emb_158,0.0036013696085117224,0.0036013696085117224,native importance / coefficient magnitude
+extra_trees,2,free,0.0035603409235150972,0.0035603409235150972,native importance / coefficient magnitude
+extra_trees,2,market_median_installs,0.00353077365495394,0.00353077365495394,native importance / coefficient magnitude
+extra_trees,2,market_iap_ratio,0.0035116387928513493,0.0035116387928513493,native importance / coefficient magnitude
+extra_trees,2,emb_318,0.0034820416632975475,0.0034820416632975475,native importance / coefficient magnitude
+extra_trees,2,emb_180,0.0034777348435905595,0.0034777348435905595,native importance / coefficient magnitude
+extra_trees,2,emb_220,0.003443243813936811,0.003443243813936811,native importance / coefficient magnitude
+extra_trees,2,emb_086,0.0033615041093397503,0.0033615041093397503,native importance / coefficient magnitude
+extra_trees,2,emb_364,0.003316664427379455,0.003316664427379455,native importance / coefficient magnitude
+extra_trees,2,emb_221,0.0032824955393889158,0.0032824955393889158,native importance / coefficient magnitude
+extra_trees,2,emb_032,0.003279416439050726,0.003279416439050726,native importance / coefficient magnitude
+extra_trees,2,emb_145,0.0032474889058188125,0.0032474889058188125,native importance / coefficient magnitude
+extra_trees,2,emb_286,0.0031109959077182292,0.0031109959077182292,native importance / coefficient magnitude
+extra_trees,2,emb_079,0.003015848750547587,0.003015848750547587,native importance / coefficient magnitude
+extra_trees,2,emb_076,0.0029901288486258635,0.0029901288486258635,native importance / coefficient magnitude
+gradient_boosting,3,market_success_ratio,0.26462337485325693,0.26462337485325693,native importance / coefficient magnitude
+gradient_boosting,3,description_words,0.0876127424333093,0.0876127424333093,native importance / coefficient magnitude
+gradient_boosting,3,market_mean_rating,0.06173943700845357,0.06173943700845357,native importance / coefficient magnitude
+gradient_boosting,3,description_chars,0.038384786514869915,0.038384786514869915,native importance / coefficient magnitude
+gradient_boosting,3,containsAds,0.021136673088290397,0.021136673088290397,native importance / coefficient magnitude
+gradient_boosting,3,market_median_installs,0.020101867240544694,0.020101867240544694,native importance / coefficient magnitude
+gradient_boosting,3,emb_286,0.019126757404601697,0.019126757404601697,native importance / coefficient magnitude
+gradient_boosting,3,emb_337,0.013559332697845239,0.013559332697845239,native importance / coefficient magnitude
+gradient_boosting,3,emb_048,0.012667176982781306,0.012667176982781306,native importance / coefficient magnitude
+gradient_boosting,3,emb_087,0.012532616770661148,0.012532616770661148,native importance / coefficient magnitude
+gradient_boosting,3,emb_108,0.010579150423243217,0.010579150423243217,native importance / coefficient magnitude
+gradient_boosting,3,emb_381,0.010551588617740514,0.010551588617740514,native importance / coefficient magnitude
+gradient_boosting,3,emb_294,0.010310887854891806,0.010310887854891806,native importance / coefficient magnitude
+gradient_boosting,3,emb_132,0.009568198775343609,0.009568198775343609,native importance / coefficient magnitude
+gradient_boosting,3,contentRating_Everyone,0.008879766467261768,0.008879766467261768,native importance / coefficient magnitude
+gradient_boosting,3,emb_001,0.007265074303885684,0.007265074303885684,native importance / coefficient magnitude
+gradient_boosting,3,emb_180,0.0070959533408887525,0.0070959533408887525,native importance / coefficient magnitude
+gradient_boosting,3,free,0.006751539523829583,0.006751539523829583,native importance / coefficient magnitude
+gradient_boosting,3,emb_118,0.006527164590526956,0.006527164590526956,native importance / coefficient magnitude
+gradient_boosting,3,emb_136,0.006257201723124881,0.006257201723124881,native importance / coefficient magnitude
+gradient_boosting,3,emb_213,0.005657784423186246,0.005657784423186246,native importance / coefficient magnitude
+gradient_boosting,3,emb_196,0.005620605855671821,0.005620605855671821,native importance / coefficient magnitude
+gradient_boosting,3,emb_114,0.005208911127155204,0.005208911127155204,native importance / coefficient magnitude
+gradient_boosting,3,emb_273,0.005191923090574894,0.005191923090574894,native importance / coefficient magnitude
+gradient_boosting,3,emb_064,0.005163145734117094,0.005163145734117094,native importance / coefficient magnitude
+hist_gradient_boosting,2,description_words,0.023917755588428753,0.023917755588428753,permutation importance
+hist_gradient_boosting,2,containsAds,0.01711456278763975,0.01711456278763975,permutation importance
+hist_gradient_boosting,2,market_success_ratio,0.01217075525969761,0.01217075525969761,permutation importance
+hist_gradient_boosting,2,emb_087,0.00574252136752144,0.00574252136752144,permutation importance
+hist_gradient_boosting,2,free,0.0054548816568047815,0.0054548816568047815,permutation importance
+hist_gradient_boosting,2,contentRating,0.004476392998027712,0.004476392998027712,permutation importance
+hist_gradient_boosting,2,emb_294,0.004240117521367622,0.004240117521367622,permutation importance
+hist_gradient_boosting,2,emb_327,0.0035441321499014578,0.0035441321499014578,permutation importance
+hist_gradient_boosting,2,emb_089,0.0034311308349770364,0.0034311308349770364,permutation importance
+hist_gradient_boosting,2,market_median_installs,0.0027685322156476198,0.0027685322156476198,permutation importance
+hist_gradient_boosting,2,emb_286,0.002627280571992204,0.002627280571992204,permutation importance
+hist_gradient_boosting,2,offersIAP,0.002462915023011214,0.002462915023011214,permutation importance
+hist_gradient_boosting,2,market_mean_rating,-0.0024243918474687134,0.0024243918474687134,permutation importance
+hist_gradient_boosting,2,emb_136,-0.002380732248520682,0.002380732248520682,permutation importance
+hist_gradient_boosting,2,description_chars,0.002036591880341924,0.002036591880341924,permutation importance
+hist_gradient_boosting,2,emb_032,0.002023750821827782,0.002023750821827782,permutation importance
+hist_gradient_boosting,2,emb_318,0.0018850673898752242,0.0018850673898752242,permutation importance
+hist_gradient_boosting,2,emb_233,0.0017746342866535498,0.0017746342866535498,permutation importance
+hist_gradient_boosting,2,emb_155,0.0016462237015122023,0.0016462237015122023,permutation importance
+hist_gradient_boosting,2,emb_381,0.0015845866206443127,0.0015845866206443127,permutation importance
+hist_gradient_boosting,2,emb_118,0.0015691773504273125,0.0015691773504273125,permutation importance
+hist_gradient_boosting,2,emb_232,-0.001538358809993386,0.001538358809993386,permutation importance
+hist_gradient_boosting,2,emb_026,-0.001533222386587707,0.001533222386587707,permutation importance
+hist_gradient_boosting,2,emb_376,0.001520381328073676,0.001520381328073676,permutation importance
+hist_gradient_boosting,2,market_mean_similarity,0.0014921309993426817,0.0014921309993426817,permutation importance
+adaboost,3,market_success_ratio,0.3482705354022174,0.3482705354022174,native importance / coefficient magnitude
+adaboost,3,free,0.3200860324380246,0.3200860324380246,native importance / coefficient magnitude
+adaboost,3,description_words,0.0788361833706225,0.0788361833706225,native importance / coefficient magnitude
+adaboost,3,market_mean_rating,0.05956770818290387,0.05956770818290387,native importance / coefficient magnitude
+adaboost,3,market_median_installs,0.038093047009057523,0.038093047009057523,native importance / coefficient magnitude
+adaboost,3,description_chars,0.02689127904719669,0.02689127904719669,native importance / coefficient magnitude
+adaboost,3,emb_364,0.018114734494702148,0.018114734494702148,native importance / coefficient magnitude
+adaboost,3,containsAds,0.014911284057185205,0.014911284057185205,native importance / coefficient magnitude
+adaboost,3,emb_294,0.012233766811346428,0.012233766811346428,native importance / coefficient magnitude
+adaboost,3,emb_026,0.01087677732281059,0.01087677732281059,native importance / coefficient magnitude
+adaboost,3,emb_048,0.010661012939737528,0.010661012939737528,native importance / coefficient magnitude
+adaboost,3,emb_145,0.009696702264927455,0.009696702264927455,native importance / coefficient magnitude
+adaboost,3,emb_381,0.00919340411784824,0.00919340411784824,native importance / coefficient magnitude
+adaboost,3,emb_087,0.008891468385510842,0.008891468385510842,native importance / coefficient magnitude
+adaboost,3,emb_180,0.008518845862307282,0.008518845862307282,native importance / coefficient magnitude
+adaboost,3,emb_327,0.008498476148576068,0.008498476148576068,native importance / coefficient magnitude
+adaboost,3,emb_089,0.008487341251864433,0.008487341251864433,native importance / coefficient magnitude
+adaboost,3,contentRating_Everyone,0.008171400893161101,0.008171400893161101,native importance / coefficient magnitude
+adaboost,3,genre_Parenting,0.0,0.0,native importance / coefficient magnitude
+adaboost,3,genre_Personalization,0.0,0.0,native importance / coefficient magnitude
+adaboost,3,genre_Photography,0.0,0.0,native importance / coefficient magnitude
+adaboost,3,genre_Productivity,0.0,0.0,native importance / coefficient magnitude
+adaboost,3,genre_Puzzle,0.0,0.0,native importance / coefficient magnitude
+adaboost,3,genre_Racing,0.0,0.0,native importance / coefficient magnitude
+adaboost,3,genre_Role Playing,0.0,0.0,native importance / coefficient magnitude
+svc,2,containsAds,0.010896922255095273,0.010896922255095273,permutation importance
+svc,2,description_words,0.007031763642340409,0.007031763642340409,permutation importance
+svc,2,description_chars,0.0049412393162392805,0.0049412393162392805,permutation importance
+svc,2,offersIAP,0.003983296351084742,0.003983296351084742,permutation importance
+svc,2,emb_294,0.003287310979618615,0.003287310979618615,permutation importance
+svc,2,emb_032,0.003056171926364093,0.003056171926364093,permutation importance
+svc,2,emb_087,0.002791646120973046,0.002791646120973046,permutation importance
+svc,2,free,0.002719736193293835,0.002719736193293835,permutation importance
+svc,2,emb_130,0.002632416995397661,0.002632416995397661,permutation importance
+svc,2,emb_327,0.002293413050624545,0.002293413050624545,permutation importance
+svc,2,emb_307,0.002272867357001903,0.002272867357001903,permutation importance
+svc,2,emb_338,0.0020956607495068447,0.0020956607495068447,permutation importance
+svc,2,emb_340,0.0019877958579880652,0.0019877958579880652,permutation importance
+svc,2,emb_136,-0.001774634286653587,0.001774634286653587,permutation importance
+svc,2,emb_381,0.0017720660749506179,0.0017720660749506179,permutation importance
+svc,2,emb_129,0.0017515203813280127,0.0017515203813280127,permutation importance
+svc,2,emb_375,0.001707860782379944,0.001707860782379944,permutation importance
+svc,2,emb_226,0.001692451512162907,0.001692451512162907,permutation importance
+svc,2,emb_048,0.0016873150887573758,0.0016873150887573758,permutation importance
+svc,2,emb_320,0.0016693376068374806,0.0016693376068374806,permutation importance
+svc,2,emb_162,0.0015845866206442756,0.0015845866206442756,permutation importance
+svc,2,emb_180,0.0015820184089413807,0.0015820184089413807,permutation importance
+svc,2,emb_246,0.001543495233398991,0.001543495233398991,permutation importance
+svc,2,emb_132,0.001522949539776423,0.001522949539776423,permutation importance
+svc,2,emb_376,0.0015152449046678858,0.0015152449046678858,permutation importance
+knn,2,description_words,0.0069444444444444935,0.0069444444444444935,permutation importance
+knn,2,emb_180,-0.0061007869000656205,0.0061007869000656205,permutation importance
+knn,2,description_chars,0.006060979618671913,0.006060979618671913,permutation importance
+knn,2,emb_145,0.005085059171597739,0.005085059171597739,permutation importance
+knn,2,emb_151,0.005014433349769994,0.005014433349769994,permutation importance
+knn,2,emb_169,0.0048808863412229675,0.0048808863412229675,permutation importance
+knn,2,emb_112,0.004848783694937575,0.004848783694937575,permutation importance
+knn,2,emb_060,0.00471523668639066,0.00471523668639066,permutation importance
+knn,2,emb_064,0.004594530736357701,0.004594530736357701,permutation importance
+knn,2,emb_172,0.004213151298487909,0.004213151298487909,permutation importance
+knn,2,emb_027,0.004134820841551701,0.004134820841551701,permutation importance
+knn,2,emb_004,0.004110422830374882,0.004110422830374882,permutation importance
+knn,2,emb_093,0.0037701347797502263,0.0037701347797502263,permutation importance
+knn,2,emb_223,0.0036802473701512315,0.0036802473701512315,permutation importance
+knn,2,emb_048,0.0036661222057857343,0.0036661222057857343,permutation importance
+knn,2,emb_162,0.003657133464825879,0.003657133464825879,permutation importance
+knn,2,emb_130,0.0036263149243919157,0.0036263149243919157,permutation importance
+knn,2,emb_211,-0.0036019169132149123,0.0036019169132149123,permutation importance
+knn,2,emb_034,-0.0034516765285995676,0.0034516765285995676,permutation importance
+knn,2,emb_091,-0.0034503924227481386,0.0034503924227481386,permutation importance
+knn,2,emb_347,-0.0034414036817881724,0.0034414036817881724,permutation importance
+knn,2,emb_121,0.0034324149408285023,0.0034324149408285023,permutation importance
+knn,2,emb_296,0.003381050706771934,0.003381050706771934,permutation importance
+knn,2,emb_042,0.003328402366863973,0.003328402366863973,permutation importance
+knn,2,emb_215,0.003309140779092723,0.003309140779092723,permutation importance
+gaussian_nb,3,genre,-0.016168176775147963,0.016168176775147963,permutation importance
+gaussian_nb,3,contentRating,0.01196273011176859,0.01196273011176859,permutation importance
+gaussian_nb,3,free,0.007482484796186739,0.007482484796186739,permutation importance
+gaussian_nb,3,price,0.007482484796186739,0.007482484796186739,permutation importance
+gaussian_nb,3,market_success_ratio,0.004059058596318203,0.004059058596318203,permutation importance
+gaussian_nb,3,description_words,0.0039190910585141054,0.0039190910585141054,permutation importance
+gaussian_nb,3,description_chars,0.0035133136094674202,0.0035133136094674202,permutation importance
+gaussian_nb,3,containsAds,0.0026953381821170166,0.0026953381821170166,permutation importance
+gaussian_nb,3,emb_319,0.002475756081525319,0.002475756081525319,permutation importance
+gaussian_nb,3,emb_360,0.002118774654832382,0.002118774654832382,permutation importance
+gaussian_nb,3,emb_110,0.0020006369165022817,0.0020006369165022817,permutation importance
+gaussian_nb,3,emb_308,-0.0018568170611439339,0.0018568170611439339,permutation importance
+gaussian_nb,3,emb_032,0.0018349872616699365,0.0018349872616699365,permutation importance
+gaussian_nb,3,emb_307,0.0018157256738987233,0.0018157256738987233,permutation importance
+gaussian_nb,3,emb_176,-0.0018080210387902602,0.0018080210387902602,permutation importance
+gaussian_nb,3,emb_102,0.0017900435568704391,0.0017900435568704391,permutation importance
+gaussian_nb,3,emb_064,0.0017797707100591549,0.0017797707100591549,permutation importance
+gaussian_nb,3,emb_322,-0.0017258382642998023,0.0017258382642998023,permutation importance
+gaussian_nb,3,emb_162,0.0017104289940828021,0.0017104289940828021,permutation importance
+gaussian_nb,3,market_free_ratio,0.0016796104536488758,0.0016796104536488758,permutation importance
+gaussian_nb,3,emb_350,-0.0016359508547008812,0.0016359508547008812,permutation importance
+gaussian_nb,3,emb_258,0.0016346667488494153,0.0016346667488494153,permutation importance
+gaussian_nb,3,market_close_competitors,-0.0016089846318212049,0.0016089846318212049,permutation importance
+gaussian_nb,3,emb_355,0.0015216654339250308,0.0015216654339250308,permutation importance
+gaussian_nb,3,market_mean_rating,0.0014857104700854624,0.0014857104700854624,permutation importance

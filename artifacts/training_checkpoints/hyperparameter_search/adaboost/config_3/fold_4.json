@@ -1,0 +1,25 @@
+{
+  "config_id": 3,
+  "fold": 4,
+  "metrics": {
+    "accuracy": 0.7809278350515464,
+    "balanced_accuracy": 0.5927835051546392,
+    "confusion_matrix": [
+      [
+        564,
+        18
+      ],
+      [
+        152,
+        42
+      ]
+    ],
+    "f1": 0.33070866141732286,
+    "pr_auc": 0.531009620734655,
+    "precision": 0.7,
+    "recall": 0.21649484536082475,
+    "roc_auc": 0.7614606582350232,
+    "specificity": 0.9690721649484536
+  },
+  "model": "adaboost"
+}

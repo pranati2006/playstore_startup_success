@@ -1,0 +1,25 @@
+{
+  "config_id": 1,
+  "fold": 3,
+  "metrics": {
+    "accuracy": 0.759020618556701,
+    "balanced_accuracy": 0.5276753259449515,
+    "confusion_matrix": [
+      [
+        576,
+        7
+      ],
+      [
+        180,
+        13
+      ]
+    ],
+    "f1": 0.12206572769953052,
+    "pr_auc": 0.4833434031925054,
+    "precision": 0.65,
+    "recall": 0.06735751295336788,
+    "roc_auc": 0.7609203778917338,
+    "specificity": 0.9879931389365352
+  },
+  "model": "random_forest"
+}
